@@ -1,0 +1,16 @@
+VALIDATION 1.0.0
+
+Automated checks completed on Windows, 2026-10-25:
+- PowerShell syntax: installer, restore script, look helper.
+- C# interop block compilation and XInput structure size (16 bytes).
+- Installation into an isolated mock game directory.
+- Automatic current pilot selection from Users/all.ini.
+- Preservation of unrelated keys, another controller and Cyrillic text.
+- Removal of conflicting old controller-0 bindings.
+- Repeat installation produces identical configuration files.
+- Two successive restores recover original configuration bytes.
+- Package scan for personal installation paths and account identifiers.
+
+The original mapping and look helper were reported working by the user.
+This portable installer has not been tested in live flight on other PCs,
+game versions, mods or controller connections. Check axes after installation.
